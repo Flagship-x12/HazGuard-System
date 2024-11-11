@@ -1,8 +1,10 @@
+# Overview 
 HaxGaurd System - LPG Gas Leakage Detector
  
 HaxGaurd System is an Arduino-based project designed to detect LPG gas leaks using the MQ-5 gas sensor. It provides real-time gas leakage detection and alerts the user through a buzzer or LED. The project aims to enhance safety in homes and industrial environments by providing an early warning in case of gas leaks.
 
 ---
+
 # Features
 
 Real-time Gas Detection: Detects LPG gas leaks using the MQ-5 gas sensor.
@@ -14,6 +16,7 @@ Threshold Sensitivity: The threshold value for gas detection can be adjusted bas
 Expandable: Potential for integration with IoT systems or additional safety measures like turning off the gas valve automatically.
 
 ---
+
 # Components
 
 Arduino Uno (or compatible Arduino board)
@@ -27,7 +30,9 @@ Relay Module (optional, for cutting off gas supply or activating ventilation)
 Jumper wires and breadboard
 
 Power Supply for Arduino
+
 ---
+
 # Installation & Setup
 
 1. Hardware Setup:
@@ -64,5 +69,6 @@ Data Logging: Store gas level readings over time for analysis and to monitor the
 Smart Safety Measures: Implement a mechanism to turn off the gas supply or activate ventilation upon detecting a gas leak.
 
 ---
+
 # License
 This project is open-source and available under the MIT License. Feel free to modify and distribute the code!
